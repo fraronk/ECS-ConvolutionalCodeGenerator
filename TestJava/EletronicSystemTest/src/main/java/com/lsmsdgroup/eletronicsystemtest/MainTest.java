@@ -21,18 +21,18 @@ public class MainTest {
         //this for explore all combination of the inputs
         System.out.print("( ");
         //int i = 1;
-        for (int i=0; i < 2048 ; ++i ){
+        for (int i=0; i < 1024 ; ++i ){
             dut.resetRegister();
             int sequence = i;
             String outputsequence = "";
-            for (int j = 0 ; j < 11; ++j){
+            for (int j = 0 ; j < 10; ++j){
                 int ak = sequence % 2;
                 sequence =  sequence / 2;
                 int ck = dut.putAk(ak);
                 outputsequence = outputsequence + Integer.toBinaryString(ck);
             }
             System.out.print("\""+outputsequence+"\"");
-            if(i != 2047){
+            if(i != 1023){
                 System.out.print(", ");
                 if(i % 10 == 9){
                     System.out.println();

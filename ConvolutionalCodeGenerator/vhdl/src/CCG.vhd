@@ -13,8 +13,8 @@ end CCG;
 
 architecture arc of CCG is
 
-    signal out_a_reg : std_logic_vector(4 downto 0);
-    signal out_c_reg : std_logic_vector(10 downto 0);
+    signal out_a_reg : std_logic_vector(3 downto 0);
+    signal out_c_reg : std_logic_vector(9 downto 0);
     signal out_xor : std_logic;
 
     component SpecialShiftReg is
@@ -29,7 +29,7 @@ architecture arc of CCG is
 begin
 
     AKregister: SpecialShiftReg
-        generic map(NF => 5) 
+        generic map(NF => 4) 
         port map(
             d       => a_in,
             q       => out_a_reg,
@@ -38,7 +38,7 @@ begin
         );
 
     CKregister: SpecialShiftReg
-        generic map(NF => 11) 
+        generic map(NF => 10) 
         port map(
             d       => out_xor,
             q       => out_c_reg,
@@ -46,7 +46,7 @@ begin
             resetn => rst
         );
     
-    out_xor <= a_in XOR out_a_reg(4) XOR out_a_reg(3) XOR out_c_reg(10) XOR out_c_reg(8);
+    out_xor <= a_in XOR out_a_reg(3) XOR out_a_reg(2) XOR out_c_reg(9) XOR out_c_reg(7);
     
     a_out <= out_a_reg(0);
     c <= out_c_reg(0);
