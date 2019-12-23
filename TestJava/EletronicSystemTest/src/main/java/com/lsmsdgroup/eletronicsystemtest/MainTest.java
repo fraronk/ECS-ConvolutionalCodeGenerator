@@ -19,7 +19,8 @@ public class MainTest {
         
         //2048 = 2^11
         //this for explore all combination of the inputs
-        System.out.print("{ ");
+        System.out.print("( ");
+        //int i = 1;
         for (int i=0; i < 2048 ; ++i ){
             dut.resetRegister();
             int sequence = i;
@@ -30,14 +31,14 @@ public class MainTest {
                 int ck = dut.putAk(ak);
                 outputsequence = outputsequence + Integer.toBinaryString(ck);
             }
-            System.out.print(outputsequence);
+            System.out.print("\""+outputsequence+"\"");
             if(i != 2047){
                 System.out.print(", ");
                 if(i % 10 == 9){
                     System.out.println();
                 }
             }else{
-                System.out.print(" }");
+                System.out.print(" )");
             }
             //System.out.println("For sequence "+Integer.toBinaryString(i)+" output is: "+outputsequence);
         }

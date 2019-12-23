@@ -20,12 +20,11 @@ public class MyCCG {
     }
     //int returns the ck calculated
     int putAk(int ak){
-        aa.putInt(ak);
         //calculate ck
         //cc index are -1 because ck it's still not insert
-        int ck = ak + aa.getFromIndex(3) + aa.getFromIndex(4) + cc.getFromIndex(7) + cc.getFromIndex(9);
+        int ck = ak + aa.getFromIndex(3) + aa.getFromIndex(4) + cc.getFromIndex(8) + cc.getFromIndex(10);
         ck = ck%2;
-        
+        aa.putInt(ak);
         cc.putInt(ck);
         return ck;
     }

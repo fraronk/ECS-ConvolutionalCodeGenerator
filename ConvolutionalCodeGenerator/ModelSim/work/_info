@@ -7,25 +7,25 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/LabsECS/Lab6/coso/ModelSim
+dC:/Modeltech_pe_edu_10.4a/examples
 Eccg
 Z0 w1576853123
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 dC:/LabsECS/ConvolutionalCodeGenerator/ModelSim
-Z4 8C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
-Z5 FC:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
+Z3 dC:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/ModelSim
+Z4 8C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
+Z5 FC:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
 l0
 L4
 VL`Gd1=NBmg7J:49@2n6n^0
 !s100 c@DZ:^J<Z3mcFIk>Qic2W3
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1576857879
+Z7 !s110 1577125917
 !i10b 1
-Z8 !s108 1576857879.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd|
-Z10 !s107 C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd|
+Z8 !s108 1577125917.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd|
+Z10 !s107 C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit -O0
 Z12 tExplicit 1
@@ -48,51 +48,53 @@ R10
 R11
 R12
 Eccg_tb
-Z13 w1576857863
+Z13 w1577125912
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z14 8C:/LabsECS/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd
-Z15 FC:/LabsECS/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd
+Z15 8C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd
+Z16 FC:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd
 l0
-L4
-Vjaz5j7>2Jee[L[jeiZ3@W0
-!s100 <NY3zR?U?z0ljR86W[9983
+L5
+VS9IY2`@La>@W1Tj3ShBBk0
+!s100 =o?fKN]h]LgDGVkQYmdkR1
 R6
 32
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/LabsECS/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd|
-Z17 !s107 C:/LabsECS/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd|
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd|
+Z18 !s107 C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd|
 !i113 1
 R11
 R12
 Abench
+R14
 R1
 R2
-DEx4 work 6 ccg_tb 0 22 jaz5j7>2Jee[L[jeiZ3@W0
-l30
-L7
-VWbi<^8:@OzHogX[lEDYD13
-!s100 XWUa[SBn??U[X2?eL5`6?3
+Z19 DEx4 work 6 ccg_tb 0 22 S9IY2`@La>@W1Tj3ShBBk0
+l44
+L8
+Vjm:G3BL^DzI0hTj;UTm=51
+!s100 ckPJ?7`4]YUb22L`C4ooW3
 R6
 32
 R7
 !i10b 1
 R8
-R16
 R17
+R18
 !i113 1
 R11
 R12
 Eflipflop
-Z18 w1574258428
+Z20 w1574258428
 R1
 R2
 R3
-Z19 8C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd
-Z20 FC:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd
+Z21 8C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd
+Z22 FC:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd
 l0
 L4
 V0D5XEkFo4N2KC<an]928S1
@@ -102,8 +104,8 @@ R6
 R7
 !i10b 1
 R8
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd|
-Z22 !s107 C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd|
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd|
+Z24 !s107 C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd|
 !i113 1
 R11
 R12
@@ -120,18 +122,18 @@ R6
 R7
 !i10b 1
 R8
-R21
-R22
+R23
+R24
 !i113 1
 R11
 R12
 Especialshiftreg
-Z23 w1576857368
+Z25 w1576857368
 R1
 R2
 R3
-Z24 8C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
-Z25 FC:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
+Z26 8C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
+Z27 FC:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
 l0
 L4
 VRU21V?GY4BWITSgO:]iSY1
@@ -141,8 +143,8 @@ R6
 R7
 !i10b 1
 R8
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd|
-Z27 !s107 C:/LabsECS/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd|
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd|
+Z29 !s107 C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd|
 !i113 1
 R11
 R12
@@ -159,8 +161,8 @@ R6
 R7
 !i10b 1
 R8
-R26
-R27
+R28
+R29
 !i113 1
 R11
 R12
