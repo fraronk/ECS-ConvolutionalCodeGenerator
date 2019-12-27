@@ -9,7 +9,7 @@ package com.lsmsdgroup.eletronicsystemtest;
  *
  * @author FraRonk
  */
-public class ShiftRegister {
+public final class ShiftRegister {
     private final int[] reg;
     
     ShiftRegister(int n){

@@ -11,17 +11,15 @@ package com.lsmsdgroup.eletronicsystemtest;
  */
 public class MyCCG {
     
-    private ShiftRegister aa;
-    private ShiftRegister cc;
+    private final ShiftRegister aa;
+    private final ShiftRegister cc;
     
     MyCCG(){
         aa= new ShiftRegister(4);
         cc= new ShiftRegister(10);
     }
-    //int returns the ck calculated
+    //it returns the ck calculated
     int putAk(int ak){
-        //calculate ck
-        //cc index are -1 because ck it's still not insert
         int ck = ak + aa.getFromIndex(3) + aa.getFromIndex(2) + cc.getFromIndex(7) + cc.getFromIndex(9);
         ck = ck%2;
         aa.putInt(ak);
@@ -33,6 +31,4 @@ public class MyCCG {
         aa.resetRegister();
         cc.resetRegister();
     }
-    
-    
 }

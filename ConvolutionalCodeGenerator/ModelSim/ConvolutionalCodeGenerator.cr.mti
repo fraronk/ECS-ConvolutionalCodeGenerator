@@ -1,4 +1,12 @@
-C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
+C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SpecialShiftReg
+-- Compiling architecture parallelo of SpecialShiftReg
+
+} {} {}} C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/CCG.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,13 +14,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity CCG
 -- Compiling architecture arc of CCG
 
-} {} {}} C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/SpecialShiftReg.vhd
+} {} {}} C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/tb/CCG_tb.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity SpecialShiftReg
--- Compiling architecture parallelo of SpecialShiftReg
+-- Loading package NUMERIC_STD
+-- Compiling entity CCG_tb
+-- Compiling architecture bench of CCG_tb
 
 } {} {}} C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Repositories/ECS-ConvolutionalCodeGenerator/ConvolutionalCodeGenerator/vhdl/src/FlipFlop.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
